@@ -1,0 +1,80 @@
+*, html, body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Helvetica;
+}
+
+#menu_web{
+    background-color: black;
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+#logo{
+    color: white;
+    margin-right: auto;
+    margin-left: 10px;
+    cursor: pointer;
+    transition: all .5s ease 0s;
+}
+
+#logo:hover{
+    color: yellow;
+}
+
+nav ul{
+    display: flex;
+    padding: 20px;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+    padding: 10px;
+}
+
+li a{
+    color: white;
+    transition: all .5s ease 0s;
+    display: inline-block;
+}
+
+li a:hover{
+    color: yellow;
+}
+
+.ig{
+    margin-right: 10px;
+    border: none;
+    font-size: 20px;
+    padding: 6px 12px;
+    background-color: yellow;
+    border-radius: 0px;
+    cursor: pointer;
+}
+
+#paragraf{
+    font-size: 40px;
+    font-family: serif;
+    position: absolute;
+    left: 10%;
+    top: 35%;
+    bottom: 50%;
+    right: 48%;
+    color:  black;
+    display : flex;
+}
+
+.foto{
+    top: 35%;
+    position: absolute;
+    left: 60%;
+    bottom: 50%;
+}
